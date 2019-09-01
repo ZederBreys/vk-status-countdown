@@ -16,7 +16,7 @@ def main():
                 #vk_session.auth()
                 #vk_session.method("status.set",f"{str(difference.days)}:{str(count_hours)}:{str(count_minutes)}:{str(count_seconds)}")
                 vk_session.method("status.set",{"text":f"{str(difference.days)}:{str(count_hours)}:{str(count_minutes)}:{str(count_seconds)}"})
-                time.sleep(1)
+                time.sleep(90)
 
 
         end_time = datetime.datetime(2019, 11, 1, 0, 0, 0)
